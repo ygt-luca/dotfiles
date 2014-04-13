@@ -1,0 +1,1 @@
+xclip does not keep a history of clips.

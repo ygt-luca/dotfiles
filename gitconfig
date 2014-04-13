@@ -1,0 +1,60 @@
+[color]
+  ui = true
+[giggle]
+  main-window-maximized = true
+  main-window-geometry = 0x0+0+0
+  file-view-hpane-position = 326
+  file-view-vpane-position = 409
+  history-view-vpane-position = 538
+  main-window-view = FileView
+[core]
+  autocrlf = input
+  excludesfile = ~/.gitignore_global
+[alias]
+  posh = push
+  ds = diff --staged
+  st = status
+  ci = commit
+  co = checkout
+  br = branch
+  bra = branch -a
+  undo = reset --soft HEAD^
+  slog = log --pretty=format:'%C(yellow)%h %C(red)%ad %C(blue)%an %C(cyan)<%ae> %C(reset)%s%C(green)%d' --date=local
+  # pretty-print only commits of this branch 
+  dfh = log --oneline --no-merges --first-parent --pretty=format:'%C(yellow)%h %C(blue)%ad %C(green)%s %C(magenta)[%an] %C(red)%d' --date=short
+  dfg = dfh master..
+  latest = for-each-ref --sort=-committerdate --format='%(committerdate:short) %(refname:short) [%(committername)]'
+  graph = log --graph --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset'
+  ls = log --pretty=format:"%C(yellow)%h\\ %C(blue)%ai%C(red)%d\\ %C(reset)%s%C(green)\\ [%cn]" --decorate --date=short
+  ll = log --pretty=format:"%C(yellow)%h\\ %Creset%s\\ %Cred%d\\ %Cblue[%cn]" --decorate --numstat
+
+  # find out what changes were introduced by a particular merge commit
+  # https://gist.github.com/robmiller/5350160
+  # Both commands accept an optional commitish; if ommitted, the last merge commit is used
+  merge-span = "!f() { echo $(git log -1 $2 --merges --pretty=format:%P | cut -d' ' -f1)$1$(git log -1 $2 --merges --pretty=format:%P | cut -d' ' -f2); }; f"
+  # `git merge-log` shows the commits that were introduced in a given merge
+  merge-log = "!git log `git merge-span .. $1`"
+  # `git merge-diff` shows the actual changes that were introduced by a given merge
+  merge-diff = "!git diff `git merge-span ... $1`"
+  latest = for-each-ref --sort=-committerdate --format='%(committerdate:short) %(refname:short) [%(committername)]'
+
+  # Ignore unnecessary git blame details.
+  # -w  white space
+  # -M  moving text
+  # -C  moving text into other files
+  softblame = blame -wMC
+  wdiff = diff --color-words
+  # Mimimalist, to accommodate people with different styles.
+	c = commit
+	l = log
+	d = diff
+	s = status
+	a = add
+[user]
+  name = Luca
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
+[push]
+	default = simple

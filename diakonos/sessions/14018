@@ -1,0 +1,32 @@
+---
+filename: /home/axiom/.diakonos/sessions/14018
+settings: {}
+name: 
+buffers:
+- filepath: /home/axiom/dropbox/notes/notes/railscasts-downloader.rb
+  read_only: false
+  cursor:
+    row: 0
+    col: 0
+  display:
+    top_line: 0
+    left_column: 0
+  last_search_regexps: []
+- filepath: /home/axiom/.diakonos/sessions/8267
+  read_only: false
+  cursor:
+    row: 0
+    col: 0
+  display:
+    top_line: 0
+    left_column: 0
+  last_search_regexps: []
+buffer_current: 1
+dir: /home/axiom/bin
+readline_histories:
+  general: []
+  files: []
+  search: []
+  shell: []
+  help: []
+  sessions: []

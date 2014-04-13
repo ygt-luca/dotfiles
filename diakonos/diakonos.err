@@ -1,0 +1,55 @@
+Diakonos Error:
+
+FuzzyFileFinder::TooManyEntries: FuzzyFileFinder::TooManyEntries
+
+Probable Causes:
+
+- Unknown
+
+----------------------------------------------------
+If you can reproduce this error, please report it at
+https://github.com/Pistos/diakonos/issues !
+----------------------------------------------------
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/vendor/fuzzy_file_finder.rb:224:in `block in follow_tree'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/vendor/fuzzy_file_finder.rb:222:in `each'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/vendor/fuzzy_file_finder.rb:222:in `follow_tree'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/vendor/fuzzy_file_finder.rb:231:in `block in follow_tree'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/vendor/fuzzy_file_finder.rb:222:in `each'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/vendor/fuzzy_file_finder.rb:222:in `follow_tree'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/vendor/fuzzy_file_finder.rb:231:in `block in follow_tree'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/vendor/fuzzy_file_finder.rb:222:in `each'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/vendor/fuzzy_file_finder.rb:222:in `follow_tree'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/vendor/fuzzy_file_finder.rb:231:in `block in follow_tree'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/vendor/fuzzy_file_finder.rb:222:in `each'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/vendor/fuzzy_file_finder.rb:222:in `follow_tree'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/vendor/fuzzy_file_finder.rb:231:in `block in follow_tree'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/vendor/fuzzy_file_finder.rb:222:in `each'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/vendor/fuzzy_file_finder.rb:222:in `follow_tree'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/vendor/fuzzy_file_finder.rb:231:in `block in follow_tree'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/vendor/fuzzy_file_finder.rb:222:in `each'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/vendor/fuzzy_file_finder.rb:222:in `follow_tree'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/vendor/fuzzy_file_finder.rb:231:in `block in follow_tree'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/vendor/fuzzy_file_finder.rb:222:in `each'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/vendor/fuzzy_file_finder.rb:222:in `follow_tree'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/vendor/fuzzy_file_finder.rb:231:in `block in follow_tree'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/vendor/fuzzy_file_finder.rb:222:in `each'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/vendor/fuzzy_file_finder.rb:222:in `follow_tree'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/vendor/fuzzy_file_finder.rb:140:in `block in rescan!'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/vendor/fuzzy_file_finder.rb:140:in `each'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/vendor/fuzzy_file_finder.rb:140:in `rescan!'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/vendor/fuzzy_file_finder.rb:132:in `initialize'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/functions/buffers.rb:301:in `new'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/functions/buffers.rb:301:in `block in open_file_ask'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/readline.rb:52:in `call'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/readline.rb:52:in `call_block'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/readline.rb:96:in `sync'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/readline.rb:102:in `paste'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/keying.rb:416:in `type_character'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/keying.rb:286:in `process_keystroke'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/interaction.rb:57:in `get_user_input'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/functions/buffers.rb:319:in `open_file_ask'
+eval:1:in `process_keystroke'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/keying.rb:379:in `eval'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos/keying.rb:379:in `process_keystroke'
+/home/axiom/.rbenv/versions/1.9.3-p385/lib/ruby/site_ruby/1.9.1/diakonos.rb:395:in `start'
+/home/axiom/.rbenv/versions/1.9.3-p385/bin/diakonos:6:in `<main>'

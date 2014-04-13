@@ -1,0 +1,11 @@
+Source: tigervnc
+Section: Distributed Computing
+Priority: extra
+Maintainer: Luca B <blmlcu@gmail.com>
+Homepage: http://sourceforge.net/apps/mediawiki/tigervnc/
+Package: tigervnc
+Architecture: amd64
+Depends: fluxbox
+Conflicts: tigervnc
+Description: tigervnc .deb to be installed with gdebi on Vagrant, Docker
+Version: 1.3.0

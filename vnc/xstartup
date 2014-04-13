@@ -1,0 +1,9 @@
+#!/bin/sh
+
+unset SESSION_MANAGER
+unset DBUS_SESSION_BUS_ADDRESS
+[ -r $HOME/.Xresources ] && xrdb $HOME/.Xresources
+# fbsetbg /usr/share/backgrounds/gnome/Waves.jpg
+gnome-terminal &
+# google-chrome --user-data-dir=~/.config/google-chrome/vnc-pairing-profile/
+fluxbox
