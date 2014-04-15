@@ -27,3 +27,4 @@ make_symlink $PUBLIC_DOTFILES/gitconfig             $HOME/.gitconfig
 make_symlink $PUBLIC_DOTFILES/vnc/default.tigervnc  $HOME/.vnc/default.tigervnc
 make_symlink $PUBLIC_DOTFILES/vnc/xstartup          $HOME/.vnc/xstartup
 make_symlink $PUBLIC_DOTFILES/bash_aliases          $HOME/.bash_aliases
+make_symlink $PUBLIC_DOTFILES/vimrc.after           $HOME/.vimrc.after
